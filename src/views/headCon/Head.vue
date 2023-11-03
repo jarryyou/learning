@@ -13,7 +13,6 @@
 .head-container {
   width: 20vw;
   height: 20vw;
-  //background: aquamarine;
   display: flex;
   justify-content: center;
   align-items: center;
