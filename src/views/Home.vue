@@ -1,9 +1,21 @@
-<script>
+<!--<script></script>-->
 
-</script>
+<!--<template>-->
+<!--  <div class="left">-->
+<!--    123456-->
+<!--  </div>-->
+<!--  <div class="right"></div>-->
+<!--</template>-->
 
-<template>
-  2345678
-</template>
+<!--<style lang="less" scoped>-->
+<!--@default-bg-color: #001529-->
+<!--.left {-->
+<!--  width: 20vw;-->
+<!--  height: 100vh;-->
+<!--  background: default-bg-color;-->
+<!--}-->
 
-<style lang="less" scoped></style>
+<!--.right {-->
+
+<!--}-->
+<!--</style>-->
