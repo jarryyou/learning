@@ -1,9 +1,12 @@
-<script></script>
+<script setup>
+import Head from './views/headCon/Head.vue'
+
+</script>
 
 <template>
   <div class="main">
     <div class="left">
-      123456
+      <Head></Head>
     </div>
     <div class="right">
       <router-view></router-view>
