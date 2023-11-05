@@ -1,5 +1,6 @@
 <script setup>
 import Head from './views/headCon/Head.vue'
+import List from './views/list/List.vue'
 
 </script>
 
@@ -7,6 +8,7 @@ import Head from './views/headCon/Head.vue'
   <div class="main">
     <div class="left">
       <Head></Head>
+      <List></List>
     </div>
     <div class="right">
       <router-view></router-view>

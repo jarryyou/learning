@@ -1,1 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+p, ul, ol {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+// 滚动条
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+// 滚动条按钮
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+// 滚动条滑块
+::-webkit-scrollbar-thumb {
+  background: rgb(93, 93, 93);
+  border-radius: 4px;
+
+  &:hover {
+    background: rgb(200, 200, 200);
+  }
+}
+
+// 滚动条滑块轨道
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+// 横向滚动条及纵向滚动条右下角角落
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
